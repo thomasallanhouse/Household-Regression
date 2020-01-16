@@ -1,2 +1,7 @@
-# Household-Regression
-Generalised linear models for dependent binary outcomes with applications to Househols stratified pandemic influenza data
+# Generalised Linear Models for Dependent Binary Outcomes with Applications to Household Stratified Pandemic Influenza Data
+Contains the code for the paper Generalised linear models for dependent binary outcomes with applications to Househols stratified pandemic influenza data - https://arxiv.org/abs/1911.12115
+
+## Abstract
+Much traditional statistical modelling assumes that the outcome variables of interest are independent of each other when conditioned on the explanatory variables. This assumption is strongly violated in the case of infectious diseases, particularly in close-contact settings such as households, where each individual's probability of infection is strongly influenced by whether other household members experience infection. On the other hand, general multi-type transmission models of household epidemics quickly become unidentifiable from data as the number of types increases. This has led to a situation where it is has not been possible to draw consistent conclusions from household studies of infectious diseases, for example in the event of an influenza pandemic. Here, we present a generalised linear modelling framework for binary outcomes in sub-units that can (i) capture the effects of non-independence arising from a transmission process and (ii) adjust estimates of disease risk and severity for differences in study population characteristics. This model allows for computationally fast estimation, uncertainty quantification, covariate choice and model selection. In application to real pandemic influenza household data, we show that it is formally favoured over existing modelling approaches. 
+
+
